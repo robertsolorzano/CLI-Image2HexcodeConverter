@@ -42,3 +42,4 @@ alias hexconvert="python /path/to/image-to-hexcode-converter/main.py"
 Now you can use the 'hexconvert' alias in your terminal to run the utility easily.
 ### Contributions
 Feel free to customize it further to better fit your project's need.
+
