@@ -1,6 +1,6 @@
 # Image to Hexcode Converter
 
-This is a simple Python utility that converts the hex color of the first pixel of an image file. Inspired when I needed to obtain an exact color from an image when styling for a porject. 
+This is a simple Python utility that converts the hex color of the first pixel of an image file. Inspired when I needed to obtain an exact color from an image when styling for a project. 
 
 This is a command line interface script that can be used as a quick utility within your workflow.
 
@@ -8,11 +8,11 @@ This is a command line interface script that can be used as a quick utility with
 
 1. Clone this repository:
 ```bash
-   git clone https://github.com/your_username/image-to-hexcode-converter.git
+git clone https://github.com/your_username/image-to-hexcode-converter.git
 ```
 2. Navigate to the project directory & run the script:
 ```bash
-    python main.py
+python main.py
 ```
 
 ### Usage
