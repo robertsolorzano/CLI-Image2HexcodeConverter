@@ -18,29 +18,26 @@ python main.py
 
 ### Usage
 
-- Press 'O' to open the file explorer and select an image file.
-- Press 'P' to paste the file path from the clipboard and press Enter.
-- The hex color of the first pixel will be displayed.
+- **Open File Explorer**: Press 'O' to open the file explorer, allowing you to browse and select an image file.
+- **Paste File Path**: Press 'P' to directly paste the file path from the clipboard, then press Enter to confirm.
+- **Display Hex Color**: After the file is selected or the path is pasted, the hex color of the first pixel will be displayed on the screen.
 
-## Adding to Path and Creating an Alias
 
+## Create an alias for easy use
 Navigate to the directory containing the script: 
 ```bash
 cd /path/to/image-to-hexcode-converter
 ```
-### Add the directory to your system's PATH
 
-For Gitbash open your config file:
+Open your config file with:
 ```bash
 nano ~/.bashrc
 ```
-
-Add the following line to your ~/.bashrc:
+Or:
 ```bash
-export PATH="$PATH:/path/to/image-to-hexcode-converter"
+nano ~/.bash_profile
 ```
 
-## Create an alias for easy use
 Add the following line to your ~/.bashrc or ~/.bash_profile:
 ```bash
 alias hexconvert="python /path/to/image-to-hexcode-converter/main.py"
@@ -51,6 +48,6 @@ Apply Changes:
 source ~/.bashrc
 ```
 
-Now you can use the 'hexconvert' alias in your terminal to run the utility easily.
+Now you can use the 'hexconvert' alias anywhere in your terminal to run the utility easily.
 ### Contributions
 Feel free to customize it further to better fit your project's need.
