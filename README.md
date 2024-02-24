@@ -23,7 +23,7 @@ python main.py
 - **Display Hex Color**: After the file is selected or the path is pasted, the hex color of the first pixel will be displayed on the screen.
 
 
-## Create an alias for easy use
+## Create an alias and add file to path
 Navigate to the directory containing the script: 
 ```bash
 cd /path/to/image-to-hexcode-converter
