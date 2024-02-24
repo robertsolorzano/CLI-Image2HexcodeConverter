@@ -4,19 +4,5 @@ __pycache__/
 # Virtual environment
 venv/
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
 # IDE specific files
-.idea/
 .vscode/
-
-# Output files (adjust the pattern as needed for your project)
-*.log
-*.csv
-*.json
-
-# Environment variables and config files
-.env
-config.json
