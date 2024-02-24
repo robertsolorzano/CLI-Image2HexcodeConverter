@@ -15,7 +15,7 @@ This is a command line interface script that can be used as a quick utility with
     python main.py
 ```
 
-## Usage
+### Usage
 
 - Press 'O' to open the file explorer and select an image file.
 - Press 'P' to paste the file path from the clipboard and press Enter.
@@ -24,19 +24,30 @@ This is a command line interface script that can be used as a quick utility with
 ## Adding to Path and Creating an Alias
 
 Navigate to the directory containing the script: 
-```
+```bash
 cd /path/to/image-to-hexcode-converter
 ```
-## Add the directory to your system's PATH:
-For Gitbash add the following line to your ~/.bashrc:
+### Add the directory to your system's PATH
+
+For Gitbash open your config file:
+```bash
+nano ~/.bashrc
+```
+
+Add the following line to your ~/.bashrc:
 ```bash
 export PATH="$PATH:/path/to/image-to-hexcode-converter"
 ```
 
-## Create an alias for easy use:
-For Gitbash add the following line to your ~/.bashrc or ~/.bash_profile:
+## Create an alias for easy use
+Add the following line to your ~/.bashrc or ~/.bash_profile:
 ```bash
 alias hexconvert="python /path/to/image-to-hexcode-converter/main.py"
+```
+
+Apply Changes:
+```bash
+source ~/.bashrc
 ```
 
 Now you can use the 'hexconvert' alias in your terminal to run the utility easily.
