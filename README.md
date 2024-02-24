@@ -9,7 +9,7 @@ HexConvert is a simple Python CLI utility that converts the first pixel of an im
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your_username/image-to-hexcode-converter.git
+git clone https://github.com/robertsolorzano/HexConvert.git
 ```
 2. Navigate to the project directory & run the script:
 ```bash
