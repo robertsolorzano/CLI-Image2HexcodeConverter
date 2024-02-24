@@ -1,7 +1,7 @@
 # HexConvert [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-HexConvert is a simple Python CLI utility that converts the first pixel of an image file to Hex color code. Inspired when I needed to obtain a hex color code from an image when styling for a project and thought this can be streamlined.
+HexConvert is a simple Python CLI utility that converts the first pixel of an image file to Hex color code. Inspired when I needed to obtain a hex color code from an image when styling for a school project and thought this can be streamlined.
 
 ![Preview image](/assets/preview.png)
 
