@@ -29,7 +29,7 @@ Navigate to the directory containing the script:
 cd /path/to/image-to-hexcode-converter
 ```
 
-Open your config file with:
+Open ~/.bashrc or ~/.bash_profile:
 ```bash
 nano ~/.bashrc
 ```
@@ -43,11 +43,12 @@ Add the following line to your ~/.bashrc or ~/.bash_profile:
 alias hexconvert="python /path/to/image-to-hexcode-converter/main.py"
 ```
 
-Apply Changes:
+Apply changes:
 ```bash
 source ~/.bashrc
 ```
 
-Now you can use the 'hexconvert' alias anywhere in your terminal to run the utility easily.
+Now you can use the ```hexconvert``` alias anywhere in your terminal to run the utility easily ✅
+
 ### Contributions
 Feel free to customize it further to better fit your project's need.
