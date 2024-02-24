@@ -29,10 +29,9 @@ def main():
             else:
                 print("No file selected.")
         elif key_pressed == 'p':
-            #user prompt to paste
+            #user prompt to paste and strip existing quotes
             file_path = input("Paste the file path here and press Enter: ").strip()
 
-            #strip the surrounding quotes
             if file_path.startswith(("'", '"')) and file_path.endswith(("'", '"')):
                 file_path = file_path[1:-1]
 
@@ -50,7 +49,7 @@ def main():
         continue_choice = input("Do you want to process another image? (Y/N): ").lower()
         if continue_choice != 'y':
             print("Exiting...")
-            break  #exit the loop if the user is finished
+            break
 
 if __name__ == "__main__":
     main()
