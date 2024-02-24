@@ -1,4 +1,5 @@
-# Image to Hexcode Converter
+# Image to Hexcode Converter [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 This is a simple Python utility that converts the hex color of the first pixel of an image file. Inspired when I needed to obtain an exact color from an image when styling for a project. 
 
